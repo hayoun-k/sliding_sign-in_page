@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8430b79f2e.js" crossorigin="anonymous"></script>
+  <title>Sliding Sign-in Page</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container" id="container">
+      <section class="form-container signin front">
+        <form action="#">
+          <h2>Sign in</h2>
+          <div class="social-container">
+            <a href="#" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="li"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <p>or use your account</p>
+          <div class="input">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+          </div>
+          <a href="#">Forgot your Password?</a>
+          <button class="uppercase">sign in</button>
+        </form>
+      </section>
+      <section class="panel right-panel front">
+        <h2>Hello, Friend!</h2>
+        <p>Enter your personal details and start journey with us</p>
+        <button class="uppercase" id="signUp">sign up</button>
+      </section>
+      <section class="panel left-panel behind">
+        <h2>Welcome Back!</h2>
+        <p>To keep connected with us please log in with your personal info</p>
+        <button class="uppercase" id="signIn">sign in</button>
+      </section>
+      <section class="form-container signup behind">
+        <form action="#">
+          <h2>Create Account</h2>
+          <div class="social-container">
+            <a href="#" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="li"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <p>or use your email for registration</p>
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Password">
+          <button>Sign Up</button>
+        </form>
+      </section>
+    </div>
+    <script src="./app.js"></script>
+  </div>
+</body>
+</html>
